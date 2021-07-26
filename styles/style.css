@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background: beige;
+    display: inline-block; 
+    border: 1px solid grey;
+}
+
+.o {
+    position: relative;
+}
+
+.o::after {
+    content: "\1F409";
+    font-size: 50px;
+    position: absolute;
+    line-height: 100px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x::after {
+    content: '\1F438';
+    position: absolute;
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
